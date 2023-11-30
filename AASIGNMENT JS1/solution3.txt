@@ -1,0 +1,59 @@
+In JavaScript, operators are categorized based on the number of operands they work with:
+
+1. Unary Operators:
+
+Unary operators operate on a single operand. 
+They perform operations such as negation, increment, decrement, and type conversion.
+
+let x = 5;
+
+// Unary minus
+let negativeX = -x;  // Result: -5
+
+// Increment and Decrement
+let y = 10;
+let postIncrement = y++;  // Result: 10, y becomes 11 after this operation
+let preDecrement = --y;   // Result: 10, y is 10 after this operation
+
+// Typeof operator
+let typeCheck = typeof x;  // Result: "number"
+
+2. Binary Operators:
+
+Binary operators operate on two operands. 
+They are the most common type of operators and include arithmetic operations, assignment, comparison, logical operations, etc.
+
+let a = 10;
+let b = 5;
+
+// Arithmetic Operators
+let addition = a + b;  // Result: 15
+let multiplication = a * b;  // Result: 50
+
+// Assignment Operator
+let assignment = a = b;  // Result: a is now 5
+
+// Comparison Operator
+let isEqual = a === b;  // Result: false
+
+// Logical Operator
+let logicalAnd = (a > 0) && (b > 0);  // Result: true if both conditions are true
+
+
+3. Ternary Operator:
+
+The ternary operator is unique as it operates on three operands. 
+It's a shorthand for an if-else statement, providing a concise way to make a decision based on a condition.
+
+let age = 20;
+
+// Ternary Operator
+let status = (age >= 18) ? "Adult" : "Minor";
+// Result: If age is 18 or older, status is "Adult"; otherwise, it's "Minor"
+
+In summary:
+
+Unary operators work with a single operand.
+Binary operators work with two operands.
+The ternary operator is the only operator in JavaScript that works with three operands, providing a compact way to express conditional statements.
+Understanding the distinction between these types of operators is essential for writing clear and effective JavaScript code.

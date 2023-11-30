@@ -1,0 +1,91 @@
+Operators in JavaScript can be categorized based on their functionality into several groups. 
+Here's an overview of these categories with examples:
+
+1. Arithmetic Operators:
+
+Perform mathematical operations on numeric values.
+
+let x = 10;
+let y = 5;
+
+console.log(x + y); // Addition: 15
+console.log(x - y); // Subtraction: 5
+console.log(x * y); // Multiplication: 50
+console.log(x / y); // Division: 2
+console.log(x % y); // Modulus (remainder): 0
+
+
+2. Assignment Operators:
+
+Assign values to variables and perform operations in a concise manner.
+
+let a = 5;
+a += 3; // Equivalent to a = a + 3;
+
+
+3. Comparison Operators:
+
+Compare values and return Boolean results.
+
+let p = 10;
+let q = 20;
+
+console.log(p == q);  // Equal to: false
+console.log(p != q);  // Not equal to: true
+console.log(p > q);   // Greater than: false
+console.log(p < q);   // Less than: true
+
+
+4. Logical Operators:
+
+Perform logical operations and return Boolean results.
+
+let isTrue = true;
+let isFalse = false;
+
+console.log(isTrue && isFalse); // Logical AND: false
+console.log(isTrue || isFalse); // Logical OR: true
+console.log(!isTrue);           // Logical NOT: false
+
+
+5. Unary Operators:
+
+Operate on a single operand.
+
+let num = 5;
+console.log(-num); // Unary minus: -5
+console.log(++num); // Increment: 6
+console.log(--num); // Decrement: 5
+
+
+6. Conditional (Ternary) Operator:
+
+Provides a concise way to write conditional statements.
+
+let age = 20;
+let status = (age >= 18) ? "Adult" : "Minor";
+
+
+7. Bitwise Operators:
+
+Perform bitwise operations on integers.
+
+let a = 5;  // 101 in binary
+let b = 3;  // 011 in binary
+
+console.log(a & b);  // Bitwise AND: 1 (001 in binary)
+console.log(a | b);  // Bitwise OR: 7 (111 in binary)
+console.log(a ^ b);  // Bitwise XOR: 6 (110 in binary)
+
+
+8. String Operators:
+
+Concatenate strings.
+
+
+let firstName = "John";
+let lastName = "Doe";
+let fullName = firstName + " " + lastName; // Concatenation: "John Doe"
+
+These categories cover the major types of operators in JavaScript, each serving a specific purpose in programming. 
+Understanding how to use these operators is crucial for writing efficient and expressive code.
